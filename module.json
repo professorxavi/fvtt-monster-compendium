@@ -1,0 +1,22 @@
+{
+			"name": "myofficialcontentmonsters",
+			"title": "My Official Monsters",
+			"description": "A module containing a compendium pack of monsters",
+			"author": "professorxavier",
+			"version": "1.0.0",
+			"minimumCoreVersion": "0.6.0",
+			"compatibleCoreVersion":"0.7.9",
+			"packs": [
+    					{
+      					"name": "myofficialmonsters",
+      					"label": "Official Monsters",
+                "system": "dnd5e",
+      					"path": "packs/ddb-monsters.db",
+      					"entity": "Actor",
+      					"module": "myofficialcontentmonsters"
+						}
+					],
+			"url": "https://github.com/professorxavi/fvtt-monster-compendium/tree/main",
+			"manifest": "https://raw.githubusercontent.com/professorxavi/fvtt-monster-compendium/main/module.json",
+			"download": "https://github.com/professorxavi/fvtt-monster-compendium/raw/main/monster-compendium.zip"
+		  }
